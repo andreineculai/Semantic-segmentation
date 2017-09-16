@@ -1,0 +1,51 @@
+﻿Build started 07.09.2017 22:25:20.
+     1>Project "C:\Users\Andrei\Desktop\Licenta\SegmSemantica\Predict\Predict.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\Utils\adjacencyMatrix.cpp ..\Utils\colorMaps.cpp ..\Utils\dist2Plane.cpp ..\Utils\fitplane.cpp ..\Utils\gSlicUtils.cpp ..\Utils\getFeatures.cpp ..\Utils\pointcloud.cpp ..\Utils\pointcloudToPly.cpp ..\Utils\rgb2ind.cpp Predict.cpp
+         adjacencyMatrix.cpp
+         colorMaps.cpp
+         dist2Plane.cpp
+         fitplane.cpp
+         gSlicUtils.cpp
+         getFeatures.cpp
+         pointcloud.cpp
+         pointcloudToPly.cpp
+         rgb2ind.cpp
+         Predict.cpp
+         Generating Code...
+     1>c:\users\andrei\desktop\licenta\segmsemantica\utils\rgb2ind.cpp(50): warning C4715: 'groupClassesRealDataset' : not all control paths return a value
+     1>c:\users\andrei\desktop\licenta\segmsemantica\utils\gslicutils.cpp(28): warning C4715: 'getSegmentationMask' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrei\Desktop\Licenta\SegmSemantica\x64\Release\Predict.exe" /NOLOGO /LIBPATH:..\RandomForest /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64" /LIBPATH:D:\OpenCV\opencv\build\x64\vc12\lib /LIBPATH:..\gSLICr gSLICr_lib.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_videostab2413.lib rfsub.o kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Andrei\Desktop\Licenta\SegmSemantica\x64\Release\Predict.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrei\Desktop\Licenta\SegmSemantica\x64\Release\Predict.lib" /MACHINE:X64 x64\Release\GCoptimization.obj
+         x64\Release\graph.obj
+         x64\Release\LinkedBlockList.obj
+         x64\Release\maxflow.obj
+         x64\Release\filter.obj
+         x64\Release\matcher.obj
+         x64\Release\matrix.obj
+         x64\Release\reconstruction.obj
+         x64\Release\triangle.obj
+         x64\Release\viso.obj
+         x64\Release\viso_mono.obj
+         x64\Release\viso_stereo.obj
+         x64\Release\classRF.obj
+         x64\Release\classTree.obj
+         x64\Release\cokus.obj
+         x64\Release\qsort.obj
+         x64\Release\rfutils.obj
+         x64\Release\adjacencyMatrix.obj
+         x64\Release\colorMaps.obj
+         x64\Release\dist2Plane.obj
+         x64\Release\fitplane.obj
+         x64\Release\getFeatures.obj
+         x64\Release\gSlicUtils.obj
+         x64\Release\pointcloud.obj
+         x64\Release\pointcloudToPly.obj
+         x64\Release\rgb2ind.obj
+         x64\Release\Predict.obj
+         Predict.vcxproj -> C:\Users\Andrei\Desktop\Licenta\SegmSemantica\x64\Release\Predict.exe
+     1>Done Building Project "C:\Users\Andrei\Desktop\Licenta\SegmSemantica\Predict\Predict.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.84

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\RF">
+      <UniqueIdentifier>{e3f3f502-06e0-4fc5-8dfd-1d75facc2e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{6c0dc556-d868-4664-9a0d-7949d679587f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LIBVISO2">
+      <UniqueIdentifier>{2086f709-1a70-4a06-a710-3fa1154dea69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Training.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RandomForest\classRF.cpp">
+      <Filter>Source Files\RF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RandomForest\classTree.cpp">
+      <Filter>Source Files\RF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RandomForest\cokus.cpp">
+      <Filter>Source Files\RF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RandomForest\qsort.c">
+      <Filter>Source Files\RF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RandomForest\rfutils.cpp">
+      <Filter>Source Files\RF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\colorMaps.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\dist2Plane.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\fitplane.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\getFeatures.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\gSlicUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\pointcloudToPly.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\rgb2ind.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIBVISO2\filter.cpp">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIBVISO2\matcher.cpp">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIBVISO2\matrix.cpp">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIBVISO2\reconstruction.cpp">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIBVISO2\triangle.cpp">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIBVISO2\viso.cpp">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIBVISO2\viso_mono.cpp">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIBVISO2\viso_stereo.cpp">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\adjacencyMatrix.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="randomForest.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\pointcloud.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Utils\gSlicUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\pointcloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RandomForest\rf.h">
+      <Filter>Source Files\RF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIBVISO2\filter.h">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIBVISO2\matcher.h">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIBVISO2\matrix.h">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIBVISO2\reconstruction.h">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIBVISO2\timer.h">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIBVISO2\triangle.h">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIBVISO2\viso.h">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIBVISO2\viso_mono.h">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIBVISO2\viso_stereo.h">
+      <Filter>Source Files\LIBVISO2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\RandomForest\rfsub.o">
+      <Filter>Source Files\RF</Filter>
+    </None>
+  </ItemGroup>
+</Project>

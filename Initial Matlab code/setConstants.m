@@ -1,0 +1,9 @@
+f = 645.2;
+B = 0.571;
+c_u = 635.9;
+c_v = 194.1;
+dirDisparity = '../TestData/Real/disparity';
+dirImages = '../TestData/Real/image';
+dirGP = '../TestData/Real/gp';
+dirLabels = '../TestData/Real/gt';
+groundPlaneEqFile = 'gpReal.txt';
